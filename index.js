@@ -4,13 +4,11 @@ const returnFirstTwoDrivers = function(drivers) {
 const returnLastTwoDrivers = function(drivers) {
   return drivers.slice(2, 4);}
 
-const selectingDrivers = function(drivers) {
-  // return returnFirstTwoDrivers();
-  // return returnLastTwoDrivers();
-}
+const selectingDrivers = [returnFirstTwoDrivers, returnLastTwoDrivers]
   
-const createFareMultiplier = function(fare, multiplier) {
-    return fare * multiplier;
+const createFareMultiplier = function(fare) {
+    return function(fare) {
+      return fare*multiplier;}
 }
   
   
