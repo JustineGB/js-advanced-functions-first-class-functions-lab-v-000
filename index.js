@@ -16,4 +16,3 @@ fareDoubler();
   
 const fareTripler = createFareMultiplier(3);
 fareTripler();
-}
