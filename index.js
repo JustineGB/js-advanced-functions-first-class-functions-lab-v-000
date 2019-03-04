@@ -14,6 +14,6 @@ const createFareMultiplier = function(fare) {
 const fareDoubler = createFareMultiplier(2);
 fareDoubler();
   
-const fareTripler = createFareMultiplier(2);
-fareDoubler();
+const fareTripler = createFareMultiplier(3);
+fareTripler();
 }
